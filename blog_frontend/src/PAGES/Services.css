@@ -1,0 +1,58 @@
+.plans-page {
+  min-height: 80vh;
+  padding: 2rem;
+  background: #f7f7fa;
+}
+
+.plans-title {
+  color: #4f8cff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.plans-desc {
+  color: #222;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.plan-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #e0e0e0;
+  padding: 2rem 1rem;
+  min-width: 250px;
+  color: #fff;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.plan-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.plan-price {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.plan-points {
+  padding-left: 1.2rem;
+  font-size: 1rem;
+}
+
+.plan-points li {
+  margin-bottom: 0.5rem;
+}
